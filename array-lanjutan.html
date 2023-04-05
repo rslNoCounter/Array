@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Nomor 1
+        let array1 = [5,2,4,1,3,5];
+        array1.sort();
+        document.writeln(array1 + "<br>");
+        //Nomor 2
+        let array2 = ["selamat", "anda", "melakukan", "perulangan", "array", "dengan", "for"];
+        for (let x of array2) {
+            document.writeln(x);
+        }
+        document.writeln("<br>")
+        //Nomor 3
+        let array3 = [1,2,3,4,5,6,7,8,9,10];
+        for (let x of array3)   {
+            if (x % 2 == 0)  {
+            document.writeln(x);  
+            } 
+        } 
+        document.writeln("<br>")
+        //Nomor 4
+        let kalimat = ["saya", "sangat", "senang", "belajar", "javascript"];
+        let text = kalimat.join(" ");
+        document.writeln(text);
+        document.writeln("<br>");
+        //Nomor 5
+        let sayuran = []
+        sayuran.push("Kangkung")
+        sayuran.push("Bayam")
+        sayuran.push("Buncis")
+        sayuran.push("Kubis")
+        sayuran.push("Timun")
+        sayuran.push("Seledri") 
+        sayuran.push("Tauge")
+        document.writeln(sayuran);
+    </script>
+</body>
+</html>
